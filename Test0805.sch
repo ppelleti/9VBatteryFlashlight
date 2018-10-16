@@ -1,1 +1,223 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Test0805"
+Date "2018-10-16"
+Rev "1.0"
+Comp "Patrick Pelletier"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R?
+U 1 1 5BC643C0
+P 4700 3950
+F 0 "R?" V 4780 3950 50  0000 C CNN
+F 1 "R" V 4700 3950 50  0000 C CNN
+F 2 "" V 4630 3950 50  0001 C CNN
+F 3 "" H 4700 3950 50  0001 C CNN
+	1    4700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BC643FF
+P 4700 4350
+F 0 "D?" H 4700 4450 50  0000 C CNN
+F 1 "LED" H 4700 4250 50  0000 C CNN
+F 2 "" H 4700 4350 50  0001 C CNN
+F 3 "" H 4700 4350 50  0001 C CNN
+	1    4700 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 4200 4700 4100
+$Comp
+L R R?
+U 1 1 5BC64447
+P 5150 3950
+F 0 "R?" V 5230 3950 50  0000 C CNN
+F 1 "R" V 5150 3950 50  0000 C CNN
+F 2 "" V 5080 3950 50  0001 C CNN
+F 3 "" H 5150 3950 50  0001 C CNN
+	1    5150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BC6444D
+P 5150 4350
+F 0 "D?" H 5150 4450 50  0000 C CNN
+F 1 "LED" H 5150 4250 50  0000 C CNN
+F 2 "" H 5150 4350 50  0001 C CNN
+F 3 "" H 5150 4350 50  0001 C CNN
+	1    5150 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5150 4200 5150 4100
+$Comp
+L R R?
+U 1 1 5BC64478
+P 5600 3950
+F 0 "R?" V 5680 3950 50  0000 C CNN
+F 1 "R" V 5600 3950 50  0000 C CNN
+F 2 "" V 5530 3950 50  0001 C CNN
+F 3 "" H 5600 3950 50  0001 C CNN
+	1    5600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BC6447E
+P 5600 4350
+F 0 "D?" H 5600 4450 50  0000 C CNN
+F 1 "LED" H 5600 4250 50  0000 C CNN
+F 2 "" H 5600 4350 50  0001 C CNN
+F 3 "" H 5600 4350 50  0001 C CNN
+	1    5600 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 4200 5600 4100
+$Comp
+L R R?
+U 1 1 5BC644AD
+P 6050 3950
+F 0 "R?" V 6130 3950 50  0000 C CNN
+F 1 "R" V 6050 3950 50  0000 C CNN
+F 2 "" V 5980 3950 50  0001 C CNN
+F 3 "" H 6050 3950 50  0001 C CNN
+	1    6050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BC644B3
+P 6050 4350
+F 0 "D?" H 6050 4450 50  0000 C CNN
+F 1 "LED" H 6050 4250 50  0000 C CNN
+F 2 "" H 6050 4350 50  0001 C CNN
+F 3 "" H 6050 4350 50  0001 C CNN
+	1    6050 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 4200 6050 4100
+$Comp
+L Conn_01x02 J?
+U 1 1 5BC644CC
+P 4200 4050
+F 0 "J?" H 4200 4150 50  0000 C CNN
+F 1 "Conn_01x02" H 4200 3850 50  0000 C CNN
+F 2 "" H 4200 4050 50  0001 C CNN
+F 3 "" H 4200 4050 50  0001 C CNN
+	1    4200 4050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4050 4400 4050
+Wire Wire Line
+	4500 3500 4500 4050
+Wire Wire Line
+	4500 3650 6050 3650
+Wire Wire Line
+	6050 3650 6050 3800
+Wire Wire Line
+	5600 3800 5600 3650
+Connection ~ 5600 3650
+Wire Wire Line
+	5150 3800 5150 3650
+Connection ~ 5150 3650
+Wire Wire Line
+	4700 3800 4700 3650
+Connection ~ 4700 3650
+Wire Wire Line
+	4400 4150 4500 4150
+Wire Wire Line
+	4500 4150 4500 4850
+Wire Wire Line
+	4300 4700 6050 4700
+Wire Wire Line
+	6050 4700 6050 4500
+Wire Wire Line
+	5600 4500 5600 4700
+Connection ~ 5600 4700
+Wire Wire Line
+	5150 4500 5150 4700
+Connection ~ 5150 4700
+Wire Wire Line
+	4700 4500 4700 4700
+Connection ~ 4700 4700
+$Comp
+L GND #PWR?
+U 1 1 5BC64610
+P 4500 4850
+F 0 "#PWR?" H 4500 4600 50  0001 C CNN
+F 1 "GND" H 4500 4700 50  0000 C CNN
+F 2 "" H 4500 4850 50  0001 C CNN
+F 3 "" H 4500 4850 50  0001 C CNN
+	1    4500 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 5BC6463F
+P 4300 4600
+F 0 "#FLG?" H 4300 4675 50  0001 C CNN
+F 1 "PWR_FLAG" H 4300 4750 50  0000 C CNN
+F 2 "" H 4300 4600 50  0001 C CNN
+F 3 "" H 4300 4600 50  0001 C CNN
+	1    4300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 5BC6466E
+P 4500 3500
+F 0 "#FLG?" H 4500 3575 50  0001 C CNN
+F 1 "PWR_FLAG" H 4500 3650 50  0000 C CNN
+F 2 "" H 4500 3500 50  0001 C CNN
+F 3 "" H 4500 3500 50  0001 C CNN
+	1    4500 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 3650
+Connection ~ 4500 4700
+Wire Wire Line
+	4300 4700 4300 4600
+$EndSCHEMATC
